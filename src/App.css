@@ -1,0 +1,105 @@
+.app {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+  font-family: system-ui, sans-serif;
+}
+
+.header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.5rem;
+}
+
+.sub {
+  margin: 0 0 1.5rem;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.sub code {
+  font-size: 0.85em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: #f1f5f9;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sub code {
+    background: #1e293b;
+    color: #e2e8f0;
+  }
+}
+
+.card {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    border-color: #334155;
+    background: #0f172a;
+  }
+}
+
+.card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+}
+
+.ok {
+  margin: 0;
+}
+
+.err {
+  margin: 0;
+  color: #b91c1c;
+}
+
+.muted {
+  margin: 0 0 0.5rem;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.95rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .list li {
+    border-color: #1e293b;
+  }
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.meta {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.meta code {
+  font-size: 0.8em;
+}
